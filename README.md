@@ -53,7 +53,6 @@ Everything else is unchanged from the original build.
 
 ## Known open items
 
-- **MySQL vs. PostgreSQL conflict**: Story 1.1's acceptance criteria says MySQL, but this migration and the wider architecture doc use Postgres-only features (JSONB, GIN indexes, enum types). Flagged to the spec owner — unresolved as of this write-up.
 - **LLM provider**: currently Gemini for cost reasons during dev. Doc specifies OpenAI; final production provider still to be decided by the team.
 
 ## Running the test locally
